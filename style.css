@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  width: 100%;
+  height: 55px;
+  background: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.header img{
+    width: 24px;
+    height: 24px;
+    margin-right: 7px;
+}
+
+.journal{
+  display: flex;
+  min-width: none;
+  max-width: 700px;
+  padding: 1rem;
+  border-bottom: 1px solid grey;
+}
+.journal .img{
+  width: 125px;
+  margin-right: 1rem;
+  
+}
+
+.journal .img img{
+  width: 125px;
+  height: 100%;
+  
+}
+.locationIcon{
+  width: 8px;
+  margin-right: 8px;
+  
+}
+.country {
+  margin-right: 1rem
+}
+a{
+  color: #918E9B
+}
+.title{
+  margin-top: 8px;
+  margin-bottom: 1rem;
+}
+.dates, span{
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+h2{
+  color: #2B283A;
+  font-size: 32px;
+}
